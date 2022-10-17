@@ -1,7 +1,7 @@
 export const introText = {
-  title: "#1 HIRING",
+  title: "#1 HIRING ",
   titleGreen: "PLATFORM",
-  subTitle: "Das perfekte Match für Unternehmen und Arbeitnehmer aus",
+  subTitle: "Das perfekte Match für Unternehmen und Arbeitnehmer aus ",
   subTitleGreen: "TECH",
   findButton: "Kandidaten finden",
   listButtons: [
