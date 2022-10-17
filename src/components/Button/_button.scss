@@ -1,0 +1,51 @@
+.button {
+  border: $size/15 solid;
+  border-radius: $size * 2;
+  padding: $size / 2 $size * 2;
+  font-size: $size;
+  cursor: pointer;
+}
+
+.btn-defult {
+  background-color: $btn-defult-bg;
+  color: $btn-defult-color;
+  border-color: $btn-defult-bg;
+
+  &:hover {
+    background-color: $btn-defult-bg-hover;
+    border-color: $btn-defult-bg-hover;
+  }
+}
+
+.btn-primary {
+  background-color: $btn-primary-bg;
+  color: $btn-primary-color;
+  border-color: $btn-primary-color;
+
+  &:hover {
+    background-color: $btn-primary-bg-hover;
+    color: $btn-primary-color-hover;
+  }
+}
+
+.btn-defult-invert {
+  background-color: $btn-defult-color;
+  color: $btn-defult-bg;
+  border-color: $btn-defult-bg;
+
+  &:hover {
+    background-color: $btn-defult-bg;
+    color: $btn-defult-color;
+  }
+}
+
+.btn-primary-invert {
+  background-color: $btn-primary-bg;
+  color: $btn-primary-color;
+  border-color: $btn-primary-color;
+
+  &:hover {
+    background-color: $btn-primary-bg-hover;
+    color: $text-black;
+  }
+}
